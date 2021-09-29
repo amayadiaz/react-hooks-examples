@@ -1,6 +1,7 @@
 import './App.css';
 import { State } from './components/State';
 import { Effect } from './components/Effect';
+import { Ref } from './components/Ref';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <header className="App-header">
         <State />
         <Effect />
+        <Ref />
       </header>
     </div>
   );
